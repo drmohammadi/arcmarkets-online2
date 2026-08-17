@@ -14,12 +14,12 @@ export const arcTestnet = defineChain({
   },
   rpcUrls: {
     default: {
-      http: ['https://rpc.testnet.arc.io'],
-      webSocket: ['wss://rpc.testnet.arc.io'],
+      http: ['https://arc-testnet.g.alchemy.com/v2/W2clbjaBR4TYGMUZqcjAZlnPdedV5rJQ'],
+      webSocket: ['wss://arc-testnet.g.alchemy.com/v2/W2clbjaBR4TYGMUZqcjAZlnPdedV5rJQ'],
     },
     public: {
-      http: ['https://rpc.testnet.arc.io'],
-      webSocket: ['wss://rpc.testnet.arc.io'],
+      http: ['https://arc-testnet.g.alchemy.com/v2/W2clbjaBR4TYGMUZqcjAZlnPdedV5rJQ'],
+      webSocket: ['wss://arc-testnet.g.alchemy.com/v2/W2clbjaBR4TYGMUZqcjAZlnPdedV5rJQ'],
     },
   },
   blockExplorers: {
